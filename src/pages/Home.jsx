@@ -14,6 +14,8 @@ import {
 
 import { Link } from 'react-router-dom';
 
+import { HashLink } from 'react-router-hash-link';
+
 const navigation = [
     { name: 'What is a 5W2H?', href: '#what' },
     { name: 'How it works', href: '#how' },
@@ -100,13 +102,13 @@ export default function Home() {
                                     </div>
                                     <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                                         {navigation.map((item) => (
-                                            <a
+                                            <HashLink
                                                 key={item.name}
-                                                href={item.href}
+                                                to={`/${item.href}`}
                                                 className="font-medium text-gray-500 hover:text-gray-900"
                                             >
                                                 {item.name}
-                                            </a>
+                                            </HashLink>
                                         ))}
                                     </div>
                                 </nav>
@@ -178,12 +180,12 @@ export default function Home() {
                                         </Link>
                                     </div>
                                     <div className="mt-3 sm:mt-0 sm:ml-3">
-                                        <a
-                                            href="#what"
+                                        <HashLink
+                                            to="/#what"
                                             className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                                         >
                                             Learn More
-                                        </a>
+                                        </HashLink>
                                     </div>
                                 </div>
                             </div>
