@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/5W2H-Planner/static/css/main.c2891454.css",
-    "main.js": "/5W2H-Planner/static/js/main.70fe6928.js",
+    "main.js": "/5W2H-Planner/static/js/main.b47571a8.js",
     "static/js/787.c4e7f8f9.chunk.js": "/5W2H-Planner/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/5W2H-Planner/index.html",
     "main.c2891454.css.map": "/5W2H-Planner/static/css/main.c2891454.css.map",
-    "main.70fe6928.js.map": "/5W2H-Planner/static/js/main.70fe6928.js.map",
+    "main.b47571a8.js.map": "/5W2H-Planner/static/js/main.b47571a8.js.map",
     "787.c4e7f8f9.chunk.js.map": "/5W2H-Planner/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2891454.css",
-    "static/js/main.70fe6928.js"
+    "static/js/main.b47571a8.js"
   ]
 }
