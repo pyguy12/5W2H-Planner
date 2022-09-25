@@ -10,6 +10,7 @@ import When from './When.jsx';
 import Who from './Who.jsx';
 import How from './How.jsx';
 import HowMuch from './HowMuch.jsx';
+import { Link } from 'react-router-dom';
 
 export default function Wizard() {
     return (
@@ -24,9 +25,9 @@ export default function Wizard() {
                             >
                                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                                     <div className="flex w-full items-center justify-between md:w-auto">
-                                        <a href="/#" className="font-bold text-indigo-600">
+                                        <Link to="/" className="font-bold text-indigo-600">
                                             5W2H Planner
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </nav>
